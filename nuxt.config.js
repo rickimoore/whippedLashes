@@ -22,7 +22,6 @@ const config = {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Custom app in under 5 minutes' },
-      {property: 'og:image', content: 'http://www.mavrik.io/images/mavrik.png'},
       {property: 'og:title', content: 'Whipped Lashes by Michelle Mendoza'},
       {property: 'og:description', content: 'This app was created by Mavrik.io'}
     ],

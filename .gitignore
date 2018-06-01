@@ -139,4 +139,5 @@ dist
 # data
 data
 
-.idea
+.idea/
+.idea/workspace.xml

@@ -4,8 +4,7 @@ const ctfConfig = getConfigForKeys([
   'CTF_SPACE_ID',
   'CTF_CDA_ACCESS_TOKEN',
   'CTF_CMA_ACCESS_TOKEN',
-  'CTF_PERSON_ID',
-  'MAILGUN_API_KEY'
+  'CTF_PERSON_ID'
 ])
 const {createClient} = require('./plugins/contentful')
 const cdaClient = createClient(ctfConfig)

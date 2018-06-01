@@ -1,5 +1,5 @@
 <template>
-    <section class="beautypress-service-section beautypress-version-2 beautypress-padding-bottom">
+    <section id="services" class="beautypress-service-section beautypress-version-2 beautypress-padding-bottom">
         <div class="container">
             <div class="beautypress-section-headinig beautypress-version-2">
                 <h2>We are awesome</h2>
@@ -39,7 +39,7 @@
                                                 <h3>{{activePanel.fields.serviceType}}</h3>
                                                 <p>{{activePanel.fields.serviceDescription}}</p>
                                                 <div class="beautypress-btn-wraper">
-                                                    <a href="#" class="xs-btn round-btn box-shadow-btn bg-color-cyan">get appointment <span></span></a>
+                                                    <a href="#appointment" class="xs-btn round-btn box-shadow-btn bg-color-cyan">get appointment <span></span></a>
                                                 </div>
                                             </div>
                                         </div>

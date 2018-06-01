@@ -10,9 +10,10 @@
                     <div class="beautypress-partner-wraper">
                         <div class="row" style="justify-content: center">
                             <div class="col-md-4" v-for="person in specialists">
-                                <div class="image--container" style="width: 100%; height: 250px; overflow: hidden">
-                                    <img :src="person.fields.image.fields.file.url" alt="">
-                                </div>
+                                <div class="image--container"
+                                     :style="{
+                                backgroundImage: `url(${person.fields.image.fields.file.url}`, width:'100%',
+                                 height: '250px', backgroundPosition: 'center', backgroundSize: 'cover'}"></div>
                                 <p style="text-align: center; margin-top: 15px">{{person.fields.name}}</p>
                             </div>
                         </div><!-- .beautypress-partner-list END -->

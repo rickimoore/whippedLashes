@@ -9,7 +9,7 @@
                         </div><!-- . END -->
                         <p>{{settings.beforeAndAfterText}}</p>
                         <div class="beautypress-btn-wraper">
-                            <a href="#" class="xs-btn bg-color-cyan round-btn box-shadow-btn">learn more <span></span></a>
+                            <a href="#gallery" class="xs-btn bg-color-cyan round-btn box-shadow-btn">learn more <span></span></a>
                         </div>
                     </div><!-- . END -->
                 </div>

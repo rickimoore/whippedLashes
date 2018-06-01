@@ -30,7 +30,7 @@
                             </ul>
 
                             <div class="beautypress-btn-wraper">
-                                <a href="#" class="xs-btn round-btn box-shadow-btn bg-color-cyan">Appointment Now <span></span></a>
+                                <a href="#appointment" class="xs-btn round-btn box-shadow-btn bg-color-cyan">Appointment Now <span></span></a>
                             </div>
                         </div><!-- .beautypress-pricing-footer END -->
                     </div><!-- .beautypress-single-pricing-table END -->

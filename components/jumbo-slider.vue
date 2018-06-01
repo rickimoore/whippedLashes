@@ -13,8 +13,8 @@
                                     <h3 class="color-white">{{slide.fields.header}}</h3>
                                     <p class="color-white">{{slide.fields.text}}</p>
                                     <div class="beautypress-btn-wraper">
-                                        <a href="#" class="xs-btn bg-chocolate round-btn box-shadow-btn">phurchase<span></span></a>
-                                        <a href="#" class="xs-btn bg-color-cyan round-btn box-shadow-btn">learn more<span></span></a>
+                                        <a href="#appointment" class="xs-btn bg-chocolate round-btn box-shadow-btn">phurchase<span></span></a>
+                                        <a href="#services" class="xs-btn bg-color-cyan round-btn box-shadow-btn">learn more<span></span></a>
                                     </div>
                                 </div>
                             </div><!-- .beautypress-welcome-container END -->
@@ -28,6 +28,14 @@
 </template>
 <script>
     export default {
-      props: ['sliders']
+      props: ['sliders'],
+      methods: {
+        moveTo: function () {
+          console.log('fuck me')
+          document.getElementById('findme').scrollIntoView({
+            behavior: 'smooth'
+          })
+        }
+      }
     }
 </script>

@@ -1,5 +1,5 @@
 <template>
-    <section class="beautypress-booking-section beautypress-bg beautypress-version-2 beautypress-padding-bottom parallax-bg"
+    <section id="appointment" class="beautypress-booking-section beautypress-bg beautypress-version-2 beautypress-padding-bottom parallax-bg"
              data-parallax="scroll" :data-image-src="settings.bookingBackground ? settings.bookingBackground.fields.file.url : 'img/get_appoinment.jpg'">
         <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: white; opacity: .7" class="overlay"></div>
         <div style="position: relative; z-index: 99;" class="container">

@@ -1,5 +1,5 @@
 <template>
-    <section class="beautypress-photo-gallery-section beautypress-version-2 beautypress-padding-bottom">
+    <section id="gallery" class="beautypress-photo-gallery-section beautypress-version-2 beautypress-padding-bottom">
         <div class="container">
             <div class="beautypress-section-headinig beautypress-version-2">
                 <h2>We are awesome</h2>

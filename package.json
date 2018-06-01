@@ -9,6 +9,7 @@
     "contentful-management": "^3.4.0",
     "dgram": "^1.0.1",
     "dns": "^0.2.2",
+    "express": "^4.16.3",
     "fs": "0.0.1-security",
     "mailgun-js": "^0.18.0",
     "mailgun.js": "^2.0.1",

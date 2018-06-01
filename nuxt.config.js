@@ -1,6 +1,5 @@
 const {getConfigForKeys} = require('./lib/config.js')
 const ctfConfig = getConfigForKeys([
-  'CTF_BLOG_POST_TYPE_ID',
   'CTF_SPACE_ID',
   'CTF_CDA_ACCESS_TOKEN',
   'CTF_CMA_ACCESS_TOKEN',
